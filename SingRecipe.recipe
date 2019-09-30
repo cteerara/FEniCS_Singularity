@@ -3,8 +3,8 @@ From: quay.io/fenicsproject/stable:current
 
 %post
     apt-get -y update
-    apt-get -y install software-properties-common build-essential python3 python3-pip 
-    python3 -m pip install numpy scipy matplotlib pandas ffmpeg-python
+    apt-get -y install build-essential python3 python3-pip 
+    python3 -m pip install numpy scipy matplotlib 
     apt-get -y update 
     ldconfig
 
