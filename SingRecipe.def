@@ -3,6 +3,7 @@ From: quay.io/fenicsproject/stable:current
 
 %post
     apt-get -y update
+    apt-get -y install libgfortran3
     python3 -m pip install numpy scipy matplotlib 
     apt-get -y update 
     ldconfig

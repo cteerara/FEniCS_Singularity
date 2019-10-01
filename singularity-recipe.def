@@ -1,0 +1,6 @@
+Bootstrap: docker
+From: quay.io/fenicsproject/stable:current
+
+%post
+    apt-get -y install libgfortran3
+    
